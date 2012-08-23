@@ -3,7 +3,7 @@
 Summary:	Smarty plugin for data set pagination
 Name:		Smarty-plugin-paginate
 Version:	1.6
-Release:	5
+Release:	6
 License:	LGPL v2.1+
 Group:		Development/Languages/PHP
 Source0:	http://www.phpinsider.com/php/code/SmartyPaginate/SmartyPaginate-%{version}.tar.gz
@@ -11,8 +11,8 @@ Source0:	http://www.phpinsider.com/php/code/SmartyPaginate/SmartyPaginate-%{vers
 URL:		http://www.phpinsider.com/php/code/SmartyPaginate/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	Smarty
+Requires:	php(core) >= %{php_min_version}
 Requires:	php(pcre)
-Requires:	php-common >= 4:%{php_min_version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
