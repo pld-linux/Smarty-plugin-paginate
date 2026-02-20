@@ -2,7 +2,7 @@
 Summary:	Smarty plugin for data set pagination
 Name:		Smarty-plugin-paginate
 Version:	1.6
-Release:	6
+Release:	7
 License:	LGPL v2.1+
 Group:		Development/Languages/PHP
 Source0:	http://www.phpinsider.com/php/code/SmartyPaginate/SmartyPaginate-%{version}.tar.gz
